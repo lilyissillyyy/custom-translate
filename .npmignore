@@ -5,5 +5,4 @@ logs/
 .github/
 .gitignore
 .gitattributes
-.travis.yml
 test.js

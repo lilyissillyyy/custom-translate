@@ -1,6 +1,6 @@
 {
 	"name": "custom-translate",
-	"version": "2.2.8",
+	"version": "2.2.9",
 	"description": "A simple module for replacing words, letters, or patterns in a string with others.",
 	"main": "index.js",
 	"typings": "typings/index.d.ts",
@@ -10,39 +10,27 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dragonfire535/custom-translate.git"
+		"url": "git+https://github.com/lilyissillyyy/custom-translate.git"
 	},
 	"keywords": [
 		"translate",
 		"translator"
 	],
-	"author": "dragonfire535",
+	"author": "lilyissillyyy <lilyodendahl@gmail.com>",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/dragonfire535/custom-translate/issues"
+		"url": "https://github.com/lilyissillyyy/custom-translate/issues"
 	},
-	"homepage": "https://github.com/dragonfire535/custom-translate#readme",
+	"homepage": "https://github.com/lilyissillyyy/custom-translate#readme",
 	"engines": {
 		"node": ">=6"
 	},
 	"devDependencies": {
-		"eslint": "^5.6.1",
-		"eslint-config-amber": "^2.0.0",
-		"eslint-plugin-jest": "^22.0.0",
-		"eslint-plugin-json": "^1.2.1",
+		"@eslint/js": "^9.37.0",
+		"eslint": "^9.37.0",
+		"eslint-config-amber": "^2.0.4",
+		"eslint-plugin-jsonc": "^2.20.1",
+		"globals": "^16.4.0",
 		"jest": "^24.3.1"
-	},
-	"eslintConfig": {
-		"extends": [
-			"amber",
-			"plugin:jest/recommended"
-		],
-		"plugins": [
-			"json",
-			"jest"
-		],
-		"env": {
-			"jest/globals": true
-		}
 	}
 }

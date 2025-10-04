@@ -1,7 +1,6 @@
 # custom-translate
 [![Downloads](https://img.shields.io/npm/dt/custom-translate.svg?maxAge=3600)](https://www.npmjs.com/package/custom-translate)
 [![Version](https://img.shields.io/npm/v/custom-translate.svg?maxAge=3600)](https://www.npmjs.com/package/custom-translate)
-[![Travis](https://api.travis-ci.org/dragonfire535/custom-translate.svg?branch=master)](https://travis-ci.org/dragonfire535/custom-translate)
 
 custom-translate is a simple module for translating certain words, letters, or
 patterns in a string with others. Usage is simple:
