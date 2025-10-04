@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { wordTrans, letterTrans, regexTrans, version } = require('./index');
 
 test('wordTrans: should throw a TypeError on invalid text', () => {
